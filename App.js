@@ -174,9 +174,11 @@ const styles = StyleSheet.create({
   },
   buttonsCalc: {
     backgroundColor: "white",
+    borderColor: "purple",
+    borderWidth: 3,
     height: 70,
     width: 70,
-    borderRadius: 5,
+    borderRadius: 50,
     justifyContent: "center",
     alignItems: "center"
   },
@@ -191,7 +193,7 @@ const styles = StyleSheet.create({
     fontSize: 30
   },
   OpsText: {
-    color: "#0080FF",
+    color: "purple",
     fontSize: 30,
     fontWeight: "700"
   },
